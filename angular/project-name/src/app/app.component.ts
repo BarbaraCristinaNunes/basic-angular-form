@@ -10,7 +10,8 @@ import { NgForm } from '@angular/forms';
 })
 export class AppComponent {
 
-  languages:string[] = ["HTML","CSS","JAVASCRIPT","PHP"];
+  // languages: any[] = ["HTML","CSS","JAVASCRIPT","PHP"];
+  languages: any[] = [{name: 'HTML'}];
 
   title = 'Friend List';
   friend = new Friend("","","","","");
